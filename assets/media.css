@@ -1,0 +1,161 @@
+/* Responsive default */
+
+@media (max-width: 1024px) {
+    .menu-res{
+        display: block;
+    }
+
+    .nav-box {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .nav-wrapper{
+        display: none;
+    }
+
+    .nav-mobile{
+        display: block;
+        position: sticky !important;
+        top: 0;
+        left: 0;
+        z-index: 99999;
+    }
+
+    .nav-box img {
+        display: none;
+    }
+    ul.nav-ul.active{
+        /* height: unset; */
+        /* opacity: 1; */
+        /* visibility: visible; */
+        /* transition: all .3s ease-out; */
+    }
+    ul.nav-ul {
+        margin: 0;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: #4fada9;
+        text-align: left;
+        /* height: 0; */
+        /* opacity: 0; */
+        /* visibility: hidden; */
+        /* transition: all .3s ease-out; */
+        display: none;
+    }
+    
+    .nav-ul li {
+        margin: 0 10px;
+        margin-bottom: 10px;
+    }
+    
+        nav.nav-wrapper {
+            width: 100%;
+            max-width: unset;
+            height: unset;
+            position: initial;
+            padding: 20px 15px;
+        }
+        
+
+    .nav-box img {
+        width: 50%;
+        border-width: 5px;
+        margin: auto;
+    }
+    
+    .nav-ul li a {
+        font-size: 14px;
+    }
+
+
+
+    nav.nav-wrapper {
+    }
+    
+    .main-wrapper {
+        margin-left: 0;
+    }
+    
+    .about-wrapper {
+        padding: 30px;
+    }
+    
+    p.about-title {
+    line-height: 87px;
+    margin: 25px 0px;
+    }
+    
+    .about-desc span {
+        font-size: 20px;
+    }
+
+
+    .section-title {
+        margin-bottom: 15px;
+        font-size: 45px;
+    }
+    
+    .section {
+        padding: 20px;
+    }
+    
+    a.exp-title {
+    }
+    
+    p.exp-desc {
+        /* font-size: 21px; */
+    }
+    
+    ul.skills-ul {
+        width: 100%;
+    }
+
+
+
+}
+
+@media (max-width: 800px) {
+    p.exp-time {order: 0;margin-bottom: 0;}
+
+    .exp-info {}
+    
+    .exp-left {
+        width: 100%;
+        order: 1;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 640px) {
+
+    .about-desc a {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+}
+
+@media (max-width: 415px) {
+
+}
+
+@media (max-width: 376px) {
+
+}
+
+@media (max-width: 320px) {
+
+    p.nav-owner {
+        font-size: 17px;
+    }
+}
