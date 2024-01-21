@@ -518,6 +518,7 @@ a:hover{
     font-size: 20px;
     font-family: 'Mulish', sans-serif;
     text-transform: capitalize;
+    font-weight: bold;
 }
 .nav-wrapper{
     max-width: 270px;
@@ -706,6 +707,7 @@ a.exp-title:hover {}
     color: #079992;
     font-size: 16px;
     margin-top: 10px;
+    font-weight: bold;
 }
 
 /* Skills */
